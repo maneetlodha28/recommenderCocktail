@@ -34,10 +34,10 @@ const App = () => {
     <div className="container">
       <h1 style={{ textAlign: "center" }}>Cocktail Recommender</h1>
       <p style={{ fontStyle: "italic", textAlign: "center" }}>
-        find the best cocktails from around the world{" "}
+        Find the best cocktails from around the world{" "}
         <span style={{ fontStyle: "normal", fontSize: 1.2 + "rem" }}>🌍</span>
       </p>
-
+      <p>Choose your main ingriedient from the below</p>
       <div>
         <button
           onClick={() => {
