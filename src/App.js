@@ -32,9 +32,10 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1 style={{ textAlign: "center" }}>Cocktail Recommeder</h1>
+      <h1 style={{ textAlign: "center" }}>Cocktail Recommender</h1>
       <p style={{ fontStyle: "italic", textAlign: "center" }}>
-        find the best cocktails from around the world
+        find the best cocktails from around the world{" "}
+        <span style={{ fontStyle: "normal", fontSize: 1.2 + "rem" }}>🌍</span>
       </p>
 
       <div>
