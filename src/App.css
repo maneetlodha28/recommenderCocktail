@@ -12,28 +12,30 @@
 
 body{
   text-align: center;
-  background-image: url("back.jpg"), url("back2.jpg");
+  background-image: url("back.jpg");
   height: 500px; 
   background-position: center; /* Center the image */
-  background-repeat: no-repeat,repeat; 
+  background-repeat: repeat; 
   background-size: cover; 
   background-color: #cccccc;
   font-family: 'Pacifico', cursive;
-  color: #192A56;
+  color: white;
  
 }
   h1{
-    color: #192A56;
+    color:white;
     font-size:3rem;
   }
   
 .list{
   border: 1px solid;
   border-radius: 10px;;
-  background: linear-gradient(to right, #ffefba, #ffffff);
+  background: linear-gradient(to right, #ff7e5f, #feb47b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   padding:0.5rem 0rem;
   text-align: center;
   margin:1rem;
+  color: black;
  
 }
 button{
